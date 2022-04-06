@@ -28,6 +28,7 @@ basic.showLeds(`
     # . . . #
     # # # # #
     `)
+basic.showString("Home change")
 basic.forever(function () {
     basic.showLeds(`
         . # . # .
